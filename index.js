@@ -1,13 +1,13 @@
 function theBeatlesPlay(musicians, instruments) {
 var array = [];
-for (var i = 0; i < musicians.length; i++) {
+for (let i = 0; i < musicians.length; i++){
   array.push(`${musicians[i]} plays ${instruments[i]}`)
 }
 return array
 }
 function johnLennonFacts(facts) {
   var array = [];
-  var array =[i-0];
+  var i = 0;
   while (i<facts.length) {
     array.push(facts[i]+"!!!");
     i++;

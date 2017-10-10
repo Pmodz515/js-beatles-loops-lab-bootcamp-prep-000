@@ -5,3 +5,11 @@ for (var i = 0; i < musicians.length; i++) {
 }
 return result
 }
+function johnLennonFacts(facts) {
+  var result = [];
+  while (i<facts.length) {
+    result.push(facts[i]+"!!!");
+    i++;
+  }
+  return result
+  }

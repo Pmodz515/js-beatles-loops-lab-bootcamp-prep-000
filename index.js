@@ -6,11 +6,11 @@ for (var i = 0; i < musicians.length; i++) {
 return array
 }
 function johnLennonFacts(facts) {
-  var result = [];
-  var result =[i-0];
+  var array = [];
+  var array =[i-0];
   while (i<facts.length) {
-    result.push(facts[i]+"!!!");
+    array.push(facts[i]+"!!!");
     i++;
   }
-  return result
+  return array
   }
